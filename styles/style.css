@@ -1,0 +1,123 @@
+html {
+  font-size: 10px;
+  font-family: arial, "lucida console", sans-serif;
+  
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.navigation{
+  display:block;
+}
+
+.folder-section{
+   display: inline-block; 
+
+}
+.folder img{
+  width: 100px;
+  height: 100px;
+}
+
+.folder>*
+{
+
+  margin:0px;
+  
+ 
+}
+#folder-section{
+   display: flex;
+   flex-direction: column-reverse; 
+   
+}
+
+.folder{
+  padding: 10px;
+  padding-bottom: 0;
+  margin:10px;
+
+}
+
+
+
+html {
+  background-repeat: no-repeat;
+  background-image:url("https://www.peuple-animal.com/data/document/3/2944.800.jpg");
+  background-size:cover;
+}
+
+body {
+
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  
+
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+#terminal{
+  background-color: #3a142b;
+  margin-left:30%;
+   /* height: 500px;
+  width: 700px;  */
+  border-style: double;
+  border-color: black;
+  display:block;
+  position:absolute;
+  width: 600px;
+  
+  
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+.window-button{
+  float:left;
+  margin:1px;
+}
+.window-button img:first-of-type{
+  margin-left:5px;
+}
+.window-button img{
+  width: 10px;
+  height: 10px;
+  margin-top:4px;
+}
+
+#text-terminal{
+  height: 495px;
+  overflow: scroll;
+  display:block;
+}
+
+#text-terminal p{
+  color:white;
+  margin-left:5px;
+  font-size: 16px;
+  overflow-y: hidden;
+ 
+}
+
+.barre-de-titre{
+  text-align: center;
+  background-color: #4c4a43;height:20px; width: 100%;
+}
+
+
+#title-terminal{
+  display:inline;
+/*  margin-left:30%;*/
+
+}
