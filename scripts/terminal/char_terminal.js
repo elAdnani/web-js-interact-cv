@@ -42,9 +42,12 @@ const ERASED =8;
  * @param {*} event 
  */
 function erasKeyCode(event){
+
     move_right();
     let ascii=event.which;
+
     if(ascii===ERASED){
+
         var texte = document.getElementById("textInput");
         texte.innerHTML = texte.innerHTML.substring(0,texte.innerHTML.length-1);
         
@@ -58,7 +61,7 @@ function erasKeyCode(event){
 function affKeyCode(event){
     
     let ascii=event.which;
-
+    
     if(ascii===ENTER){
         
             let varr = document.getElementById("textInput").cloneNode(true).innerHTML;
@@ -80,7 +83,8 @@ function affKeyCode(event){
     texte.innerHTML += touche+"";
 
 }
-
+function move_right() {
+}
 /**
  * déplace le curseur du terminal vers le bas
  */
